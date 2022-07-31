@@ -1,5 +1,13 @@
-import 'package:class_object/class_object.dart' as class_object;
+class Person {
+  final String name;
+  final int age;
+
+  Person(this.name, this.age);
+}
 
 void main(List<String> arguments) {
-  print('Hello world: ${class_object.calculate()}!');
+  final person = Person('Ram', 35);
+  // person.name = 'Vishnu';
+  print(person.name);
+  print(person.age);
 }
