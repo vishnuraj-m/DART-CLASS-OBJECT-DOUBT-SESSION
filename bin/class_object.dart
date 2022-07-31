@@ -7,6 +7,11 @@ class Person {
     print(name);
   }
   Person.ageAbove50(this.name, this.age);
+
+  // * Function Test
+  void sayHi() {
+    print('Hai');
+  }
 }
 
 void main(List<String> arguments) {
@@ -20,4 +25,5 @@ void main(List<String> arguments) {
   final person = Person.ageBelow50('Vishnu', 30);
   print(person.name);
   print(person.age);
+  person.sayHi();
 }
