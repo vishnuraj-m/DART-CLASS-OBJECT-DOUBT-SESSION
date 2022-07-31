@@ -11,7 +11,10 @@ void main(List<String> arguments) {
   // final person = Person.ageBelow50('Vishnu', 30);
   print(person.getName());
   // print(person._age);
-
+  person.setAge = 70;
   print(person.getAge());
   person.sayHi();
+
+  print(person.name);
+  print(person.age);
 }
